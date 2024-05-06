@@ -24,4 +24,15 @@
 - 목표 : 판매량 예측 
     * 매일 저녁 9시 당일 판매가 마감된 후, 상품별 리드타임에 맞게 판매량을 예측 
     * 예를 들어 리드타임이 2일 걸리는 상품이라면, 5월 20일 저녁에 5월 22일 판매량을 에측해야 한다 
-    
+
+
+## 아주 정확한 결과를 얻을 수 있었음 
+
+중요한것은 스케일링과 trend와 같은 feature 추가 입력이었다. 
+
+스케일링을 잘 못하면 절대 좋은 결과를 얻을 수 없다. 
+
+![output1](https://github.com/khw11044/temporal_tabular_data/assets/51473705/a898e40b-e3cd-441f-8c09-815bef30b481)
+
+
+![output2](https://github.com/khw11044/temporal_tabular_data/assets/51473705/3b6de45f-2b1c-4a01-b03b-02389aa0cea0)
